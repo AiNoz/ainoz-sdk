@@ -1,0 +1,20 @@
+{
+  "name": "@ainoz/examples-node",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AINOZ SDK Node.js example",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx basic.ts",
+    "typecheck": "tsc --noEmit",
+    "clean": "rm -rf dist *.tsbuildinfo"
+  },
+  "dependencies": {
+    "ainoz-sdk": "file:../../packages/ainoz-sdk"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3"
+  }
+}

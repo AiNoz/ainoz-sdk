@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="AINOZ LLM - On-chain LLM utility for Solana ecosystem">
+    <title>AINOZ LLM</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 4rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+            letter-spacing: -0.02em;
+        }
+        
+        .subtitle {
+            font-size: 1.5rem;
+            margin-bottom: 2rem;
+            opacity: 0.9;
+            font-weight: 300;
+        }
+        
+        .description {
+            font-size: 1.125rem;
+            line-height: 1.7;
+            margin-bottom: 3rem;
+            opacity: 0.85;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: #fff;
+            color: #667eea;
+            padding: 1rem 2.5rem;
+            border-radius: 50px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.125rem;
+            transition: transform 0.2s, box-shadow 0.2s;
+            margin: 0.5rem;
+        }
+        
+        .cta-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+        
+        .cta-button.secondary {
+            background: transparent;
+            color: #fff;
+            border: 2px solid #fff;
+        }
+        
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 4rem;
+            text-align: left;
+        }
+        
+        .feature {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 1.5rem;
+            border-radius: 12px;
+            backdrop-filter: blur(10px);
+        }
+        
+        .feature h3 {
+            font-size: 1.25rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .feature p {
+            opacity: 0.85;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>AINOZ LLM</h1>
+        <p class="subtitle">On-chain LLM utility for Solana</p>
+        <p class="description">
+            AINOZ brings powerful AI capabilities to the Solana blockchain ecosystem.
+            Build intelligent dApps with production-ready TypeScript SDK,
+            seamless integration, and enterprise-grade reliability.
+        </p>
+        
+        <div>
+            <a href="#" class="cta-button" onclick="alert('Launch App — onProgress'); return false;">
+                Launch App — onProgress
+            </a>
+            <a href="../docs/index.md" class="cta-button secondary">
+                Read Documentation
+            </a>
+        </div>
+        
+        <div class="features">
+            <div class="feature">
+                <h3>🚀 Production Ready</h3>
+                <p>TypeScript SDK with strict type safety and comprehensive error handling</p>
+            </div>
+            <div class="feature">
+                <h3>🔗 Solana Native</h3>
+                <p>Purpose-built for the Solana ecosystem with wallet integration</p>
+            </div>
+            <div class="feature">
+                <h3>📡 Real-time Streaming</h3>
+                <p>Support for both streaming and non-streaming API calls</p>
+            </div>
+            <div class="feature">
+                <h3>🛡️ Type Safe</h3>
+                <p>Full TypeScript support with complete type definitions</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

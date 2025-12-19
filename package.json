@@ -1,0 +1,31 @@
+{
+  "name": "ainoz-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AINOZ LLM - On-chain LLM utility for Solana",
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "services/*",
+    "examples/*"
+  ],
+  "scripts": {
+    "build": "npm run --workspaces --if-present build",
+    "clean": "npm run --workspaces --if-present clean",
+    "dev": "npm run --workspace relayer dev",
+    "typecheck": "npm run --workspaces --if-present typecheck"
+  },
+  "keywords": [
+    "ainoz",
+    "llm",
+    "solana",
+    "blockchain",
+    "ai"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  }
+}
